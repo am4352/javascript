@@ -7,7 +7,7 @@ let age = 19;
 let isloggedin = false
 let state = null
 // number => 2 to power 53 -- bigint
-// string => use in single quote
+// string => use in single quote hello
 // null - standalone value
 // booleran => true/false
 // undefinerd=>
