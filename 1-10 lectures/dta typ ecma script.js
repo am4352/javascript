@@ -8,6 +8,8 @@ let isloggedin = false
 // number => 2 to power 53
 // bigint
 // string => use in single quote
+// null 
+// booleran => true/false
 
 
 
