@@ -3,7 +3,7 @@
 console.log(3 + 3);
 console.log("anuj");
 let name = "anuj"
-let age = 18;
+let age = 19;
 let isloggedin = false
 // number => 2 to power 53
 // bigint
