@@ -2,7 +2,7 @@
 //alert(3+3)//we are using node , not browser
 console.log(3 + 3);
 console.log("anuj");
-let name = "anuj"
+let name = "manuj"
 let age = 19;
 let isloggedin = false
 // number => 2 to power 53
