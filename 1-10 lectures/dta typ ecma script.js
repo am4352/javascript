@@ -5,11 +5,22 @@ console.log("anuj");
 let name = "manuj"
 let age = 19;
 let isloggedin = false
-// number => 2 to power 53
-// bigint
+let state = null
+// number => 2 to power 53 -- bigint
 // string => use in single quote
-// null 
+// null - standalone value
 // booleran => true/false
+// undefinerd=>
+// symbol
+console.log(typeof "anuj");
+console.log(typeof null); //type is object
+
+
+
+
+
+
+
 
 
 
