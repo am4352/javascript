@@ -9,7 +9,7 @@ console.log(newarray);//
 console.log("A ", array);
 const myn1 = array.slice(1, 3)
 console.log("b", myn1);
-const myn2 = array.splice(1, 3)
+const myn2 = array.splice(1, 3)// it modify the complete array and remove the entered index 
 console.log(array);
 console.log(myn2);
 
