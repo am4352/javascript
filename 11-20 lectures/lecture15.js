@@ -8,7 +8,8 @@ const all_new_heroes = [...marvel_heroes, ...dcheroes ]
 console.log(all_new_heroes);
 const anotherarray = [1, 2, 3, [4, 5, 6], 7, [5, 6]];
 console.log(anotherarray);
-const realarray  = anotherarray.flat(Infinity)
+const realarray = anotherarray.flat(Infinity)
+//flat(Infinity): The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth. By passing Infinity as the depth, it flattens all nested arrays into a single level array, no matter how deeply nested they are.
 console.log(realarray);
 console.log(Array.isArray("ANUJ"));//check if its an array 
 console.log(Array.from("anuj"));//converts into array
