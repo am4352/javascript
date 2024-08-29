@@ -33,7 +33,9 @@ console.log(tinderuser);
 console.log(Object.values(tinderuser));//output data type is array
 console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('isloggedin'));//check if it is present or not 
+console.log(tinderuser.hasOwnProperty('isloggedin'));//check if it is present or not
+
+
 
 
 
