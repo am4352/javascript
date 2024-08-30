@@ -1,9 +1,9 @@
-// function saymyname() {
-//     console.log("a");
-//     console.log("n");
-//     console.log("u");
-//     console.log("j");
-// } 
+function saymyname() {
+    console.log("a");
+    console.log("n");
+    console.log("u");
+    console.log("j");
+} 
      
 // saymyname() //function executed
 
@@ -23,7 +23,7 @@ addtwonumber(3, null)
 
 const result = addtwonumber(3, 5)
 console.log(result);
-function loginusermessage(username)
+function loginusermessage(username)//parameter username 
 {
     if (!username) {
         console.log("please enter a username");
@@ -33,5 +33,14 @@ function loginusermessage(username)
 }
 // console.log(loginusermessage("anuj"))
 console.log(loginusermessage("anujmishra"));
+
+
+function calculatecartprice(...num1) //three dots is rest operator packs into bundle and givers 
+{
+      return num1 // gives an array 
+}
+console.log(calculatecartprice(200,400,600));
+
+
 
 
