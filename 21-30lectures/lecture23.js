@@ -30,8 +30,8 @@ const chai = () =>
 }
 // chai()
 
-const addtwo = (num1, num2) => num1 + num2;
-const add = (num1, num2) => ({username : "anuj"}) ;
+const addtwo = (num1, num2) => num1 + num2;   //no need of ()
+const add = (num1, num2) => ({username : "anuj"}) ;   // arrow function
 
 console.log(addtwo(6, 5));
 console.log(add(5,3));
