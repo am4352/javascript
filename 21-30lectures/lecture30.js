@@ -1,10 +1,10 @@
 const coding = ["js", "python", "html", "css"]
 const values = coding.forEach((items) => {
 //callback function
-    console.log(items);
+    // console.log(items);
     return items
 })
-
+// if you want to return something from the array or transform it, use map().If you're only iterating over the array without needing to return or store anything, forEach() is fine.
 console.log(values); //gives undefined value
 const mynum = [1, 5, 6, 8, 9, 3, 2, 7]
 // const newnum = mynum.filter((items) => items > 4)//returns an array 
