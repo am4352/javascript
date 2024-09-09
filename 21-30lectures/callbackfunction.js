@@ -28,11 +28,11 @@ coding.forEach((item , index, arr) =>  //callback function
     },
      
 ]*/
-mycoding.forEach((item) => ///foreach    call back function
+mycoding.forEach((item) => //foreach    call back function
 {
     console.log(item.filename);
     
-})
+}),
 mycoding.forEach((item) =>
 {
     console.log(item.languagename);
