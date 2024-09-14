@@ -1,7 +1,7 @@
 const coding = ["js", "python", "html", "css"]
 const values = coding.forEach((items) => {
 //callback function
-    // console.log(items);
+    console.log(items);
     return items
 })
 // if you want to return something from the array or transform it, use map().If you're only iterating over the array without needing to return or store anything, forEach() is fine.

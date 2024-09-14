@@ -13,7 +13,7 @@ coding.forEach((item , index, arr) =>  //callback function
 })  
 
 
-/*const mycoding = [
+const mycoding = [
      {
     languagename : "javascript",
     filename : "js"
@@ -27,7 +27,7 @@ coding.forEach((item , index, arr) =>  //callback function
         filename:"go"
     },
      
-]*/
+]
 mycoding.forEach((item) => //foreach    call back function
 {
     console.log(item.filename);
@@ -38,3 +38,13 @@ mycoding.forEach((item) =>
     console.log(item.languagename);
     
 })
+
+
+
+
+
+
+
+
+
+

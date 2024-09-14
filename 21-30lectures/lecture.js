@@ -14,7 +14,7 @@ for (const key in myobject) {
 
 const programming = ["js", "rb", "py"]
 for (const key in programming) {
-//    console.log(`${key} hello ${programming[key]}  `);
+   console.log(`${key} hello ${programming[key]}  `);
    
 }
 const map = new Map()  //You can't use a for...in loop to iterate over a Map because for...in is designed to iterate over the enumerable properties of objects, not for data structures like Map that store key-value pairs.
@@ -27,8 +27,7 @@ map.set(`IN`, "INDIA")
 map.set(`USA`, "united states of america")
 map.set(`USA`, "united states of america")
 for (const key in map) { // map is not iteratable 
-    console.log(key);
-    
+    console.log(key);  
 }
 
 
