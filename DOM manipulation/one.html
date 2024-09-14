@@ -7,23 +7,37 @@
     <style>
         .bg-black{
             background-color: rgb(34, 33, 33);
-            color: azure;
+            color: rgb(113, 233, 233);
         }
     </style>
 </head>
 <body class="bg-black">
       <div >
-        <h1 id = "title" class="heading">Dom learning on chai or code <span style = "display: none;">test text</span></h1>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <ul>
-            <li class="list">one</li>
-            <li class="list">two</li>
-            <li class="list">three</li>
-            <li class="list">four</li>
+        <h1 id = "title" class="heading">Dom learning on chai or code </h1>
+        <ul class="numbers">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
         </ul>
-      </div>
 </body>
+<script>
+function addnum(num)
+{
+    const li = document.createElement('li')
+    li.innerHTML = `${num}`
+   document.querySelector('.numbers').appendChild(li)
+}
+addnum("five")
+addnum("six")
+
+const num = document.querySelector("li:nth-child(2)")
+num.outerHTML = '<li>hundred</li>'
+
+const hello = document.querySelector("li:last-child")
+hello.remove()
+
+</script>
+
 </html>
+
