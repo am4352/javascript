@@ -8,7 +8,8 @@
 <body style="background-color: #212121; color :aliceblue">
       <ul class="language">
         <li>javascript</li>
-      </ul>   
+        <li>javascript</li>
+      </ul>
 </body>
 <script>
 function addlanguage(langname)
@@ -27,7 +28,7 @@ function optiland(langname)
 optiland('golang')
  //edit 
 const secondlang = document.querySelector("li:nth-child(2)")
-<!-- secondlang.innerHTML = "hello" -->
+
 const newli = document.createElement('li')
 newli.innerHTML = "ruby"
 secondlang.replaceWith(newli)
@@ -39,6 +40,7 @@ firstlang.outerHTML = '<li>typescript</li>'
 //remove
 const lastlang = document.querySelector('li:last-child')
 lastlang.remove()
+
 
 </script>
 </html>
