@@ -22,11 +22,22 @@
 document.getElementById('images').addEventListener('click', function(e)
 {
     console.log("images is clicked");
-},false)
+},false),
 document.getElementById('owl').addEventListener('click', function(e)
 {
-  console.log("owl is clicked");
+  console.log("owl is clicked"); // called as bubbline  insider elements get prefrence first owl is printed and second images is printed
+  e.stopPropagation()
+}),
+document.querySelector('#images').addEventListener('click', function(e){
+   console.log(e.target.parentNode);
+   let removeit = e.target.parentNode;
+   removeit.remove()
 })
+
+
+
 
 </script>
 </html>
+
+
