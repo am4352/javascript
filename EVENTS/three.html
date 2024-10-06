@@ -20,7 +20,7 @@ let intervalid;
 document.querySelector('#start').addEventListener('click' , function(){
   if(!intervalid)
   {
-    intervalid = setInterval(saydate, 1000);
+    intervalid = setInterval(saydate, 1000); // 1000 milisecond = 1 second 
   }
 });
 
@@ -29,7 +29,6 @@ document.querySelector('#stop').addEventListener('click' , function(){
    {
     clearInterval(intervalid);
      intervalid = null;
-
    }
 
 })

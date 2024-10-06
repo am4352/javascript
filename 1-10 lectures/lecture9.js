@@ -8,6 +8,8 @@ const heroes = ["anuj", "mishra", "hello"]
     name: "mom",
     age : 25
 }
+console.log(myobj.name);
+
 const myfunction = function ()
 {
     console.log("hello world");   
